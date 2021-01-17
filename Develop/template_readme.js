@@ -1,17 +1,17 @@
-
-
-![GitHub](https://img.shields.io/github/license/charlestbell/ReadMe-Generator?color=%23cdd755&style=flat-square)
-# Title <!-- omit in toc -->
+exports.markdown = (response) =>
+  `![GitHub](https://img.shields.io/github/license/charlestbell/ReadMe-Generator?color=%23cdd755&style=flat-square)
+# ${response.title} <!-- omit in toc -->
 --- 
 ### Table of Contents
 
 - [Description](#description)
+  - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [How to use it](#how-to-use-it)
-  - [Credits](#credits)
-  - [How to contribute](#how-to-contribute)
-  - [Tests](#tests)
-  - [License](#license)
+- [Credits](#credits)
+- [How to contribute](#how-to-contribute)
+- [Tests](#tests)
+- [License](#license)
 
 ## Description
 
@@ -40,4 +40,6 @@ Developer: C.T. Bell
 
 
 ### License
-Link to license
+#####${response.license}
+[Link to ${response.license} licence](${response.licenseLink})
+`;
