@@ -31,6 +31,7 @@ After downloading this repo, run ```npm i``` to install inquirer.
 
 ## How to use it
 Using the command line, navigate to the folder called Develop. Then run ```node index.js``` Then follow the prompts. Then the finished readme will be in the folder called Final Output.
+[Video Walkthrough](https://drive.google.com/file/d/1m-yQyY8916wF7bOTl04lH1ZXRGsvGP77/view?usp=sharing)
 
 
 ### Credits
