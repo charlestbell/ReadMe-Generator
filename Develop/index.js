@@ -19,7 +19,7 @@ inquirer.prompt(questions.questionsList).then((response) => {
 
 // function to write README file
 function writeToFile(response) {
-  fs.writeFile("README.md", template.markdown(response), () => {
+  fs.writeFile("../Final Output/README.md", template.markdown(response), () => {
     console.log("Readme file created.");
   });
 }
