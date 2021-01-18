@@ -4,16 +4,18 @@
 ### Table of Contents
 
 - [Description](#description)
-  - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [How to use it](#how-to-use-it)
-- [Credits](#credits)
-- [How to contribute](#how-to-contribute)
-- [Tests](#tests)
-- [License](#license)
+  - [Credits](#credits)
+  - [How to contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
 ## Description
 This is a command line tool for generating comprehensive Readme.md files for open source projects.
+
+This README.md was created with this program! (except for the video link)
 
 ___Technologies Used___
 - Node.js
