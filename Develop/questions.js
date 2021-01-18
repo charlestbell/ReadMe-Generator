@@ -1,3 +1,4 @@
+//Questions list for Inquirer
 exports.questionsList = [
   {
     type: "input",

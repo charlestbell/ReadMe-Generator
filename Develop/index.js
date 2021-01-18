@@ -3,9 +3,9 @@ const fs = require("fs");
 const template = require("./template_readme");
 const questions = require("./questions");
 
-// array of questions for user
-
+//Run the inquirer prompt
 inquirer.prompt(questions.questionsList).then((response) => {
+  //Add associated license links to the reponse object
   const licenseLinks = {
     MIT: "https://opensource.org/licenses/MIT",
     BSD3clause: "https://opensource.org/licenses/BSD-3-Clause",
