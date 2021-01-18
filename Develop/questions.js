@@ -26,6 +26,12 @@ exports.questionsList = [
   },
   {
     type: "input",
+    message: "What was your motivation to create this project?",
+    name: "motivation",
+  },
+
+  {
+    type: "input",
     message: "How do you install this project?",
     name: "installation",
   },
@@ -33,23 +39,7 @@ exports.questionsList = [
     type: "list",
     message: "What open source license do you want to use?",
     name: "license",
-    choices: ["MIT", "BSD", "Apache2"],
-  },
-  {
-    type: "input",
-    message: "What is your GitHub username?",
-    name: "username",
-  },
-  {
-    type: "input",
-    message:
-      "What is the name of the program's repository (use dashes between words)",
-    name: "repoName",
-  },
-  {
-    type: "input",
-    message: "What is the name of the repository this",
-    name: "installation",
+    choices: ["MIT", "Apache2", "GPLv2", "GPLv3", "BSD3clause,"],
   },
   {
     type: "input",
@@ -63,7 +53,17 @@ exports.questionsList = [
   },
   {
     type: "input",
+    message: "How can people contribute to this project?",
+    name: "contributions",
+  },
+  {
+    type: "input",
     message: "How do you run tests on this program to ensure it's working?",
     name: "tests",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
   },
 ];
