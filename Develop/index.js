@@ -19,6 +19,10 @@ inquirer.prompt(questions.questionsList).then((response) => {
 
 // function to write README file
 function writeToFile(response) {
+  const dir = "../Final Output";
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  }
   fs.writeFile("../Final Output/README.md", template.markdown(response), () => {
     console.log("Readme file created.");
   });
