@@ -7,6 +7,11 @@ exports.questionsList = [
   },
   {
     type: "input",
+    message: "Paste a link to the the live, deployed project",
+    name: "liveSite",
+  },
+  {
+    type: "input",
     message: "Describe your project in a few sentences.",
     name: "description",
   },
@@ -46,6 +51,12 @@ exports.questionsList = [
     type: "input",
     message: "Give instructions on how to use this program.",
     name: "usage",
+  },
+  {
+    type: "input",
+    message:
+      "What features would you like to add to this program in the future?",
+    name: "future",
   },
   {
     type: "input",

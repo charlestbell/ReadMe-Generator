@@ -8,10 +8,14 @@ exports.markdown = (response) =>
   - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [How to use it](#how-to-use-it)
+- [Future Development](#future-development)
 - [Credits](#credits)
 - [How to contribute](#how-to-contribute)
 - [Tests](#tests)
 - [License](#license)
+
+## Live Site
+[View Now](${response.liveSite})
 
 ## Description
 ${response.description}
@@ -31,6 +35,8 @@ ${response.installation}
 ## How to use it
 ${response.usage}
 
+## Future Development
+${response.future}
 
 ### Credits
 Developers: ${response.credits}
