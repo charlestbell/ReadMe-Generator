@@ -54,4 +54,5 @@ ${response.tests}
 If you have a question about this software, contact the developer at:
 ${response.email}
 
+![Screenshot](Assets/screenshot.jpg "Screenshot")
 `;

@@ -23,7 +23,7 @@ function writeToFile(response) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }
-  fs.writeFile("../Final Output/README.md", template.markdown(response), () => {
+  fs.writeFile("./Final Output/README.md", template.markdown(response), () => {
     console.log("Readme file created.");
   });
 }
